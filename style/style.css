@@ -1,0 +1,46 @@
+.hidtable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:move;
+    background:white;
+    border-style:dotted;
+    z-index:4;
+}
+.coverhidtable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:move;
+    background:white;
+    color:white;
+    z-index:4;
+}
+.acttable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:move;
+    z-index:5;
+    background:white;
+}
+.acttable th{
+  padding:10px;
+ 
+}
+.drag {
+    background:orange;
+    color:white;
+    cursor:move;
+}
+.over {
+    background: red;
+    color:white;
+}
+ .sortorder:after {
+    content: '\25b2';
+  }
+  .sortorder.reverse:after {
+    content: '\25bc';
+  }
+

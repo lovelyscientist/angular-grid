@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>Draggble Grid</title>
+    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <script data-require="angular.js@*" data-semver="1.4.3" src="https://code.angularjs.org/1.4.3/angular.js"></script>
+    <script src="main.js"></script>
+    <script src="js/directives/droppableDirective.js"></script>
+    <script src="js/directives/draggableDirective.js"></script>
+    <script src="js/directives/gridDirective.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+  </head>
+
+  <body>
+    <div ng-app="myApp">
+      <div style="margin-left:5px;margin-top:10px" ng-controller="myCtrl">
+        <ang-table conf="config"></ang-table>
+      </div>
+    </div>
+  </body>
+
+</html>
