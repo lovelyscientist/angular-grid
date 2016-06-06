@@ -15,7 +15,7 @@ var fileExtentions = {
 server.on('request', function(req, res) { 
   var extention = path.extname(req.url),
       type = fileExtentions[extention], 
-      filePath =  '../' + req.url;
+      filePath =  '../client' + req.url;
 
   if (req.url.indexOf('.') > -1) {
     fs.exists(filePath, function (exists) {
